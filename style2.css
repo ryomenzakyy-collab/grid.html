@@ -1,0 +1,31 @@
+.wrap-3{
+    display: grid;
+    grid-template-areas: 
+    "kiri kanan"
+    "bawah kanan";
+    gap: 10px;
+}
+
+.wrap-3 div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.wrap-3 .shell{
+    grid-area: kiri;
+    background-color: rgb(9, 255, 0);
+    text-align: center;
+}
+
+.wrap-3 .hero{
+    grid-area: bawah;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.wrap-3 .footer{
+    grid-area: kanan;
+    background-color: blue;
+    text-align: center;
+    line-height: 60px;
+}
